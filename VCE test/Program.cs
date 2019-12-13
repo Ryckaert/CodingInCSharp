@@ -5,7 +5,7 @@
 
         static void Main(string[] args)
         {
-            ZeroByZero.Test();
+            CustomersWithOrdersIn2005.Test();
 
         }
 
