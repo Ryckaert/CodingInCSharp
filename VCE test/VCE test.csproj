@@ -6,4 +6,8 @@
     <RootNamespace>VCE_test</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Toolbox\Toolbox.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -7,11 +7,17 @@ using Toolbox;
 
 namespace VCE_test
 {
+
+    /// <summary>
+    /// Testing if the position of the "AsParallel" call
+    /// mathers in a linq query 
+    /// </summary>
     static class AsParallelPosition
     {
         private static IEnumerable<int> customers = new FakeBigIntEnumerable(Int16.MaxValue);
 
         private static ConcurrentDictionary<int, int> HitPerThread = new ConcurrentDictionary<int, int>();
+
 
         private static void AsParallel_After()
         {

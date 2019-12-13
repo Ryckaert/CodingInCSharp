@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "VCE test/1.0.0": {
+        "dependencies": {
+          "Toolbox": "1.0.0"
+        },
         "runtime": {
           "VCE test.dll": {}
+        }
+      },
+      "Toolbox/1.0.0": {
+        "runtime": {
+          "Toolbox.dll": {}
         }
       }
     }
   },
   "libraries": {
     "VCE test/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Toolbox/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

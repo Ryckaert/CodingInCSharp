@@ -9,3 +9,6 @@ C:\Users\c.ryckaert\source\repos\VCE test\VCE test\obj\Debug\netcoreapp3.1\VCE t
 C:\Users\c.ryckaert\source\repos\VCE test\VCE test\obj\Debug\netcoreapp3.1\VCE test.AssemblyInfo.cs
 C:\Users\c.ryckaert\source\repos\VCE test\VCE test\obj\Debug\netcoreapp3.1\VCE test.dll
 C:\Users\c.ryckaert\source\repos\VCE test\VCE test\obj\Debug\netcoreapp3.1\VCE test.pdb
+C:\Users\c.ryckaert\source\repos\VCE test\VCE test\bin\Debug\netcoreapp3.1\Toolbox.dll
+C:\Users\c.ryckaert\source\repos\VCE test\VCE test\bin\Debug\netcoreapp3.1\Toolbox.pdb
+C:\Users\c.ryckaert\source\repos\VCE test\VCE test\obj\Debug\netcoreapp3.1\VCE test.csproj.CopyComplete
