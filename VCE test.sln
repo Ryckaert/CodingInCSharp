@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29609.76
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VCE test", "VCE test\VCE test.csproj", "{AEF18179-3932-4D3E-820D-FDD64A1D3ED4}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toolbox", "Toolbox\Toolbox.csproj", "{FE28942D-5160-4B18-8882-FA3C04B8A66C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{D0B9DFBD-1BCC-42EF-AE63-0935F12CB965}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AEF18179-3932-4D3E-820D-FDD64A1D3ED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AEF18179-3932-4D3E-820D-FDD64A1D3ED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AEF18179-3932-4D3E-820D-FDD64A1D3ED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AEF18179-3932-4D3E-820D-FDD64A1D3ED4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FE28942D-5160-4B18-8882-FA3C04B8A66C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FE28942D-5160-4B18-8882-FA3C04B8A66C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE28942D-5160-4B18-8882-FA3C04B8A66C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE28942D-5160-4B18-8882-FA3C04B8A66C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0B9DFBD-1BCC-42EF-AE63-0935F12CB965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0B9DFBD-1BCC-42EF-AE63-0935F12CB965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0B9DFBD-1BCC-42EF-AE63-0935F12CB965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0B9DFBD-1BCC-42EF-AE63-0935F12CB965}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
