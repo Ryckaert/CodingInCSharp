@@ -4,9 +4,16 @@ using System.Threading;
 
 namespace Toolbox
 {
+    /// <summary>
+    /// Fake a large <see cref="IEnumerable{int}"/> quickly
+    /// </summary>
     public class FakeBigIntEnumerable : IEnumerable<int>
     {
         int Max;
+        /// <summary>
+        /// Fake an <see cref="IEnumerable{int}"/> containing the specified ammount of elements
+        /// </summary>
+        /// <param name="max"></param>
         public FakeBigIntEnumerable(int max)
         {
             this.Max = max;
@@ -22,6 +29,7 @@ namespace Toolbox
         }
     }
 
+    //Quick and dirty enumarator faking a enumerable containing a given set of ints
     class FakeBigIntEnumerator : IEnumerator<int>
     {
         public FakeBigIntEnumerator(int max )
@@ -51,7 +59,7 @@ namespace Toolbox
 
     public void Reset()
     {
-            IntErnal = 0;
+            IntErnal = -1;
     }
 }
 }
