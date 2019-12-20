@@ -5,7 +5,7 @@
 
         static void Main(string[] args)
         {
-            CustomersWithOrdersIn2005.Test();
+            CatchClause.Test();
 
         }
 
